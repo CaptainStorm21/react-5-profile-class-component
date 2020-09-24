@@ -3,6 +3,7 @@ import './App.css';
 import Profile from './Profile'
 import Hello from './Hello';
 import Loader from './Loader';
+import Counter from './Counter'
 
 function App() {
   const user = {
@@ -23,6 +24,7 @@ function App() {
       <Loader spinnerSize={60} isVisible={true} />
       <div className="App">      
         <Profile user={user} />    
+        <Counter/>
       </div>  
 
     </div>
