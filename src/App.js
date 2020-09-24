@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Profile from './Profile'
 import Hello from './Hello';
+import Loader from './Loader';
 
 function App() {
   const user = {
@@ -18,10 +19,12 @@ function App() {
     <div>
       <div className = "header">
         <Hello/>
-      </div>
+      </div>      
+      <Loader spinnerSize={60} isVisible={true} />
       <div className="App">      
         <Profile user={user} />    
       </div>  
+
     </div>
       );
 }

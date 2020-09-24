@@ -5,10 +5,10 @@
 
 /* profile */
 .profile {
-  max-width: 500px;
-  margin: 10%;
+  max-width: 90%;
+  margin: 5%;
   padding: 20px;
-  border: solid 1px #eee;
+  border: solid 1px rgb(13, 188, 201);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
